@@ -1,0 +1,17 @@
+#include <stdio.h> // # is a preprocessor directive
+// <standard input output header file >
+//c is case sensitive
+int main() {
+    int a;
+    int b;
+        printf("enter a value of a and b :");
+        //%is format specifier d-- stands for integer   amperand&----adresss operator of a/variable mentioned whatever
+        scanf("%d", &a);
+        scanf("%d", &b);
+        printf("triple the value of a is %d" ,3*a);
+    
+        printf("half of the value of b is %d" ,5*b);
+    }
+    
+
+ 
