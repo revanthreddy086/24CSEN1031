@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a =6, b=2, temporary;
+    printf("\nbefore sorting :a=%d,b=%d",a,b);
+    if(a>b)
+    {
+        temporary =a;
+        a=b;
+        b= temporary;
+    }
+    printf("\n after saorting :a=%d, b=%d",a,b);
+    return 0;
+    }
