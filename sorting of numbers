@@ -12,3 +12,27 @@ int main() {
     printf("\n after saorting :a=%d, b=%d",a,b);
     return 0;
     }
+
+
+
+WITH 3 NUMBERS    ##################
+#include <stdio.h>
+
+int main() {
+    int a =6, b=2,c=9, temporary;
+    printf("\nbefore sorting :a=%d,b=%d,c=%d",a,b,c);
+    if(a>b)// swap the numbers 
+    {
+        temporary=a; a=b; b=temporary;
+    }
+    if(a>c)// swap the numbers 
+    {
+        temporary=a; a=c;c=temporary;
+    }
+    if(b>c)// swap the numbers
+    {
+        temporary =b; b=c;c= temporary;
+    }
+    printf("\n after sorting :a=%d, b=%d, c=%d",a,b,c);
+    return 0;
+    }
