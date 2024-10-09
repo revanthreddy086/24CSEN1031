@@ -15,3 +15,9 @@ int main() {
     printf("The reverse number = %d",sum);
  return 0;
    }
+
+//OUTPUT
+Enter a number : 85731
+The reverse number = 13758
+
+=== Code Execution Successful ===
