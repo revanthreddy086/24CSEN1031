@@ -1,0 +1,15 @@
+//program to check the maximum and minimum value of int variable and store the entered value
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   unsigned long int num = -8965;
+   // printf("size of the unsigned short int = %d\n",sizeof (num));
+    printf("value = %d", num);
+
+    return 0;
+}
+//OUTPUT
+value = -8965
+
+=== Code Execution Successful ===
